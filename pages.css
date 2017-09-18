@@ -1,0 +1,271 @@
+.img-large {
+	width: 100%;
+	height: auto;
+}
+
+.img-small {
+	width: 30%;
+	height: auto;
+}
+
+.text-wrapper {
+	color: black;
+	width: 100%;
+	position: absolute;
+	font-family: 'didot';
+
+}
+
+.text-box h1 {
+	margin-top: 15%;
+	font-size: .6rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	font-family: 'HelveticaNeue';
+}
+
+.text-box h2 {
+	letter-spacing: 0rem;
+	font-size: .4rem;
+}
+
+.text-box h3 {
+	font-family: 'HelveticaNeue';
+	text-transform: uppercase;
+	letter-spacing: .05rem;
+	font-size: .3rem;
+}
+
+.text-box h4 {
+	font-size: .3rem;
+}
+
+.text-box p {
+	font-size: .2rem;
+}
+
+.text-header {
+	width: 72%;
+	height: 100%;
+	margin-left: 14%;
+}
+
+.text-body {
+	width: 72%;
+	margin-left: 14%;
+}
+
+.tag {
+	margin-right: 15px;
+}
+
+
+/*  Definitions for page panels  */
+
+#paint-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#paint-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#paint-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
+
+
+#tle-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#tle-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#tle-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
+
+
+#vinci-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#vinci-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#vinci-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
+
+
+#funk-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#funk-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#funk-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
+
+
+#code-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#code-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#code-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
+
+#about-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#about-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#about-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
+
+/* row 2 */
+
+#co-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#co-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#co-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
+
+
+#bredcrumb-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#bredcrumb-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#bredcrumb-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
+
+
+#windows-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#windows-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#windows-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
+
+
+#egg-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#egg-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#egg-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
+
+
+#cliq-box {
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#cliq-box.shown {
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+}
+
+#cliq-box.hidden {
+	opacity: 1;
+	-webkit-animation: 'fadeout' .5s ease forwards;
+    animation: 'fadeout' .5s ease forwards;
+}
