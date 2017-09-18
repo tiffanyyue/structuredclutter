@@ -1,13 +1,11 @@
 @font-face {
 	font-family: 'Helvetica';
 	src: url(HelveticaNeue.ttf);
-	font-size: 1rem;
 }
 
 @font-face {
 	font-family: 'Didot';
 	src: url(GFSDidot-Regular.ttf);
-	font-size: 1rem;
 }
 
 body {
@@ -25,8 +23,8 @@ body {
 	right: 0;
 	left: 40%;
 	top: 80%;
-	font-size: .25em;
-	letter-spacing: .1em;
+	font-size: 1em;
+	letter-spacing: .4em;
 	transition: all .2s ease-in-out; 
 	height: 30px;
 	width: 60px;
@@ -39,8 +37,8 @@ body {
 	right: 0;
 	left: 40%;
 	top: 80%;
-	font-size: .25rem;
-	letter-spacing: .1rem;
+	font-size: 1rem;
+	letter-spacing: .4rem;
 	transition: all .2s ease-in-out; 
 	height: 30px;
 	width: 60px;
