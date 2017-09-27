@@ -37,6 +37,7 @@
 
 .image-wrapper {
 	width: 2000px;
+	overflow-x:scroll;
 }
 
 
