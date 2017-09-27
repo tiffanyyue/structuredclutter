@@ -93,12 +93,13 @@
 #paint-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
 	overflow: hidden;
 }
 
 #paint-box.shown {
+	z-index: 3;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
 }
@@ -118,6 +119,7 @@
 }
 
 #tle-box.shown {
+	z-index: 3;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
 }
@@ -137,6 +139,7 @@
 }
 
 #vinci-box.shown {
+	z-index: 3;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
 }
@@ -156,6 +159,7 @@
 }
 
 #funk-box.shown {
+	z-index: 3;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
 }
@@ -175,6 +179,7 @@
 }
 
 #code-box.shown {
+	z-index: 3;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
 }
@@ -193,6 +198,7 @@
 }
 
 #about-box.shown {
+	z-index: 3;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
 }
@@ -208,12 +214,13 @@
 #co-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
 	overflow: hidden;
 }
 
 #co-box.shown {
+	z-index: 3;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
 }
@@ -233,6 +240,7 @@
 }
 
 #bredcrumb-box.shown {
+	z-index: 3;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
 }
@@ -252,6 +260,7 @@
 }
 
 #windows-box.shown {
+	z-index: 3;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
 }
@@ -271,6 +280,7 @@
 }
 
 #egg-box.shown {
+	z-index: 3;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
 }
