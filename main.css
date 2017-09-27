@@ -91,6 +91,7 @@ body {
 .shown {
 	z-index: 1;
 	opacity: 1;
+	
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
     overflow: hidden;

@@ -32,6 +32,7 @@
 	top: 50%;
 	height: 100%;
 	width: 50%;
+
 }
 
 .image-wrapper {
@@ -111,9 +112,8 @@
 #tle-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #tle-box.shown {
@@ -131,9 +131,8 @@
 #vinci-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #vinci-box.shown {
@@ -151,9 +150,8 @@
 #funk-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #funk-box.shown {
@@ -171,9 +169,8 @@
 #code-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #code-box.shown {
@@ -190,9 +187,8 @@
 #about-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #about-box.shown {
@@ -231,9 +227,8 @@
 #bredcrumb-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #bredcrumb-box.shown {
@@ -251,9 +246,8 @@
 #windows-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #windows-box.shown {
@@ -271,9 +265,8 @@
 #egg-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #egg-box.shown {
@@ -291,9 +284,8 @@
 #cliq-box {
 	position: absolute;
 	left: 0px;
-	z-index: 3;
+	z-index: -1;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #cliq-box.shown {
