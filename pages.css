@@ -1,5 +1,14 @@
 /* Layout of the page */
 
+.text-wrapper {
+	color: black;
+	width: 100%;
+	position: absolute;
+	font-family: 'didot';
+	height: 100%;
+	overflow: hidden;
+
+}
 
 .text-header {
 	width: 72%;
@@ -7,21 +16,13 @@
 	margin-left: 14%;
 }
 
-.text-body {
-	width: 72%;
-	margin-left: 14%;
-}
-
 .tag {
 	margin-right: 15px;
 }
 
-.text-wrapper {
-	color: black;
-	width: 100%;
-	position: absolute;
-	font-family: 'didot';
-
+.text-body {
+	width: 72%;
+	margin-left: 14%;
 }
 
 .image-gallery {
