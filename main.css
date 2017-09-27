@@ -55,7 +55,7 @@ body {
 	position: fixed;
 	left: 2.5%;
 	top: 5%;
-	width: 3%;
+	width: 2%;
 	height: auto;
 	transition: all .2s ease-in-out; 
 	z-index: 3;
@@ -64,7 +64,6 @@ body {
 
 .x:hover {
 	cursor: pointer;
-	transform: rotate(45deg);
 	transform: scale(1.2);
 }
 
