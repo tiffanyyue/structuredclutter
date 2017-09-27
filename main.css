@@ -57,6 +57,7 @@ body {
 	width: 3%;
 	height: auto;
 	transition: all .2s ease-in-out; 
+	z-index: 3;
 
 }
 
@@ -91,7 +92,7 @@ body {
 
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .text-box.hidden {

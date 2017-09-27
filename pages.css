@@ -206,7 +206,7 @@
 #co-box {
 	position: absolute;
 	left: 0px;
-	z-index: -1;
+	z-index: 3;
 	opacity: 0;
 	overflow: hidden;
 }
