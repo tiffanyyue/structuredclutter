@@ -27,10 +27,11 @@
 
 .image-gallery {
 	position: absolute;
-	overflow-x: scroll;
 	left: 50%;
 	top: 50%;
 	height: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
 	width: 50%;
 
 }
