@@ -17,7 +17,7 @@
 	<div class='text-wrapper'>
 
 	<div id='paint-box' class=''>
-		<img id='x' src='img/x.png'>
+		<img class='x' src='img/x.png'>
 		<div class='text-header'>
 			<h1>Fine Arts</h1>
 			<h3><span class='tag'>ART</span></h3>
@@ -39,7 +39,7 @@
 
 
 	<div id='vinci-box' class=''>
-		<img id='x' src='img/x.png'>
+		<img class='x' src='img/x.png'>
 		<div class='text-header'>
 			<h1>VINCI VR</h1>
 			<h3><span class='tag'>ENTREPRENEURIAL</span><span class='tag'>CODE</span><span class='tag'>BRANDING</span></h3>
@@ -50,7 +50,7 @@
 	</div>
 
 	<div id='tle-box' class=''>
-		<img id='x' src='img/x.png'>
+		<img class='x' src='img/x.png'>
 		<div class='text-header'>
 			<h1>The Locust Experiment</h1>
 			<h3><span class='tag'>ENTREPRENEURIAL</span><span class='tag'>CODE</span><span class='tag'>DESIGN</span><span class='tag'>BRANDING</span></h3>
@@ -61,7 +61,7 @@
 	</div>
 
 	<div id='funk-box' class=''>
-		<img id='x' src='img/x.png'>
+		<img class='x' src='img/x.png'>
 		<div class='text-header'>
 			<h1>Strictly Funk</h1>
 			<h2>A Funk show isn't just a dance; it's an experience.</h2>
@@ -82,7 +82,7 @@
 	</div>
 
 	<div id='code-box' class=''>
-		<img id='x' src='img/x.png'>
+		<img class='x' src='img/x.png'>
 		<div class='text-header'>
 			<h1>CodeBud</h1>
 			<h2>A fun way to keep your wits about you at a hackathon.</h2>
@@ -110,7 +110,7 @@
 	</div>
 
 	<div id='co-box' class=''>
-		<img id='x' src='img/x.png'>
+		<img class='x' src='img/x.png'>
 		<div class='text-header'>
 			<h1>The Collctve</h1>
 			<h2>A diverse network of creatives, risk-takers, innovators, and collaborators coast to coast.</h2>
@@ -154,7 +154,7 @@
 	</div>
 
 	<div id='bredcrumb-box' class=''>
-		<img id='x' src='img/x.png'>
+		<img class='x' src='img/x.png'>
 		<div class='text-header'>
 			<h1>brEdcrumb</h1>
 			<h2>An EdTech app to level the college app playing field.</h2>
@@ -197,7 +197,7 @@
 	</div>
 
 	<div id='windows-box' class=''>
-		<img id='x' src='img/x.png'>
+		<img class='x' src='img/x.png'>
 		<div class='text-header'>
 			<h1>Golden Windows</h1>
 			<h2>A Java Swing Game Project.</h2>
@@ -222,7 +222,7 @@
 	</div>
 
 	<div id='egg-box' class=''>
-		<img id='x' src='img/x.png'>
+		<img class='x' src='img/x.png'>
 		<div class='text-header'>
 			<h1>Egg</h1>
 			<h2>Poor puns ahead.</h2>
@@ -247,7 +247,7 @@
 	</div>
 
 	<div id='cliq-box' class=''>
-		<img id='x' src='img/x.png'>
+		<img class='x' src='img/x.png'>
 		<div class='text-header'>
 			<h1>Cliq</h1>
 
@@ -279,6 +279,7 @@
 
 	<div id='about-box' class=''>
 		<div class='text-header'>
+		<img class='x' src='img/x.png'>
 		<h1>About</h1>
 		</div>
 		<div class='text-body'>
@@ -419,11 +420,11 @@
 			}
 		});
 
-		$('#x').click(function() {
+		$('.x').hover(function() {
 			console.log('this is shit hover');
 		});
 
-		$('#x').click( function () {
+		$('.x').click( function () {
 			$('.text-box').addClass('hidden');
 			$('.text-box').removeClass('shown');
 

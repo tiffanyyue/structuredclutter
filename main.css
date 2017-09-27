@@ -15,6 +15,7 @@ body {
 	color: #2b2b2b;
 	margin: 0px;
 	overflow: hidden;
+	z-index: -1;
 }
 
 #welcome-hello {
@@ -50,7 +51,7 @@ body {
 	transform: translate(0px, -5px);
 }
 
-#x {
+.x {
 	position: fixed;
 	left: 2.5%;
 	top: 5%;
@@ -61,7 +62,7 @@ body {
 
 }
 
-#x:hover {
+.x:hover {
 	cursor: pointer;
 	transform: rotate(45deg);
 	transform: scale(1.2);
@@ -88,8 +89,8 @@ body {
 */
 
 .shown {
-	z-index: 3;
-
+	z-index: 1;
+	opacity: 1;
 	-webkit-animation: 'fade' .5s ease forwards;
     animation: 'fade' .5s ease forwards;
     overflow: hidden;
@@ -141,11 +142,12 @@ body {
 #content {
 	width: 100%;
 	height: 100%;
+	z-index: 0;
 	background-color: white;
 }
 
 #icon-wrapper {
-	z-index: 1;
+	z-index: 0;
 	height: auto;
 	width: auto;
 	cursor: pointer;
@@ -158,7 +160,7 @@ body {
 }
 
 .icon {
-	z-index: 1;
+	z-index: 0;
 	position: absolute;
 	height: 40%;
 	top: 27%;
