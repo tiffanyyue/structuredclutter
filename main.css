@@ -76,7 +76,17 @@ body {
 
 }
 
+/*
 .text-box.shown {
+	z-index: 3;
+
+	-webkit-animation: 'fade' .5s ease forwards;
+    animation: 'fade' .5s ease forwards;
+    overflow: auto;
+}
+*/
+
+.shown {
 	z-index: 3;
 
 	-webkit-animation: 'fade' .5s ease forwards;
