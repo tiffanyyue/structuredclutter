@@ -1,0 +1,9 @@
+.test-out {
+	height: 100%;
+	width: 50%;
+	overflow-x:scroll;
+}
+
+.test-inner {
+	width: 2000px;
+}

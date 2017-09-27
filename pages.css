@@ -27,14 +27,16 @@
 
 .image-gallery {
 	position: absolute;
-	overflow: hidden;
+	overflow-x: scroll;
 	left: 50%;
 	top: 50%;
+	height: 100%;
+	width: 50%;
 
 }
 
 .image-wrapper {
-	overflow-x: scroll;
+	width: 2000px;
 }
 
 
