@@ -1,0 +1,10 @@
+Major bugs from today:
+
+- x-button was not capturing the hover/click function properly
+		- SOLUTION: need to use classes rather than IDs
+- could not access / scroll sideways on the gallery
+		- other elements were on top / blocking it
+		- SOLUTION: move all 'hidden' elements to z-position -1, which affects both visibility AND interaction capabilities
+		- *IMPORTANT: need to have position: relative or absolute defined for z-index to take affect
+- git doesn't push properly?
+		- make another change ... check which branch is currently in use
