@@ -41,14 +41,14 @@ body {
 	font-size: 1rem;
 	letter-spacing: .4rem;
 	transition: all .2s ease-in-out; 
-	height: 30px;
+	height: 40px;
 	width: 20%;
 	opacity: 0;
 }
 
 #about:hover {
 	cursor: pointer;
-	transform: translate(0px, -5px);
+	transform: translate(0px, -15px);
 }
 
 .x {
