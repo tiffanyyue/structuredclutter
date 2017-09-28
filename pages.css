@@ -106,6 +106,7 @@
 
 #paint-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
@@ -126,6 +127,7 @@
 
 #tle-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
@@ -146,6 +148,7 @@
 
 #vinci-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
@@ -166,6 +169,7 @@
 
 #funk-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
@@ -186,6 +190,7 @@
 
 #code-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
@@ -205,6 +210,7 @@
 
 #about-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
@@ -227,6 +233,7 @@
 
 #co-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
@@ -247,6 +254,7 @@
 
 #bredcrumb-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
@@ -267,6 +275,7 @@
 
 #windows-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
@@ -287,6 +296,7 @@
 
 #egg-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
@@ -306,6 +316,7 @@
 
 #cliq-box.hidden {
 	opacity: 1;
+	z-index:-1;
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
