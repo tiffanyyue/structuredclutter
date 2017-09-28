@@ -51,6 +51,11 @@
 
 .scroll-arrow {
 	position: absolute;
+	top: 30%;
+	left: 72%;
+	letter-spacing: .2rem;
+	font-family: 'HelveticaNeue';
+	font-weight: bold;
 }
 
 /* styles */
