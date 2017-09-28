@@ -64,7 +64,14 @@
 	font-style: italic;
 }
 
-.scroll-arrow {}
+.text-body::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: 3px solid black;
+}
+
+.text-body::::-webkit-scrollbar-track {
+  border: 2px solid black;
+}
 
 /* styles */
 
