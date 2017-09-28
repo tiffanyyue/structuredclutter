@@ -21,8 +21,10 @@
 }
 
 .text-body {
+	position: relative;
 	width: 52%;
 	margin-left: 6%;
+	z-index: 1;
 }
 
 .image-gallery {
