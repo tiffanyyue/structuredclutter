@@ -47,15 +47,13 @@
 .img-large {
 	display: block;
 	float: left;
-	height: 50%;
-	height: auto;
+	height: 57vh;
 }
 
 .img-medium {
 	display: block;
 	float: left;
-	width: 50%;
-	height: auto;
+	height: 57vh;
 }
 
 .img-small {
