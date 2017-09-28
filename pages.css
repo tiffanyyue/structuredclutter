@@ -64,12 +64,13 @@
 	font-style: italic;
 }
 
-.text-body::-webkit-scrollbar-thumb {
-  background-color: black;
-  outline: 3px solid black;
+.text-body::-webkit-scrollbar {
+    width: .9em;
+    outline: 2px solid black;
 }
 
-.text-body::::-webkit-scrollbar-track {
+.text-body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
   border: 2px solid black;
 }
 
