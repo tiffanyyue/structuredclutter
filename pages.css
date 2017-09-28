@@ -14,6 +14,7 @@
 	width: 72%;
 	height: 100%;
 	margin-left: 6%;
+	z-index: 1;
 }
 
 .tag {
@@ -39,7 +40,7 @@
 }
 
 .image-wrapper {
-	width: 2000px;
+	width: 800%;
 	overflow-x:scroll;
 }
 
