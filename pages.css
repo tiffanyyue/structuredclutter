@@ -90,7 +90,9 @@
 }
 
 .text-box h4 {
-	font-size: 1rem;
+	font-size: .95rem;
+    font-family: 'HelveticaNeue';
+    letter-spacing: .3em;
 }
 
 .text-box p {
