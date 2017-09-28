@@ -12,7 +12,7 @@
 }
 
 .text-header {
-	position: relative;
+	position: fixed;
 	width: 47%;
 	height: 100%;
 	margin-left: 4%;
@@ -24,23 +24,23 @@
 }
 
 .text-body {
-	position: relative;
+	position: fixed;
 	width: 52%;
 	margin-left: 4%;
-	height: 35vh;
+	height: 50%;
 	overflow-y: scroll;
 	z-index: 1;
+	top: 43%;
 }
 
 .image-gallery {
-	position: absolute;
+	position: fixed;
 	overflow-x: scroll;
 	overflow-y: hidden;
 	left: 50%;
 	top: 34%;
 	height: 90%;
 	width: 50%;
-
 }
 
 .image-wrapper {
@@ -50,7 +50,7 @@
 }
 
 .scroll-arrow {
-	position: absolute;
+	position: fixed;
 	top: 30%;
 	left: 72%;
 	letter-spacing: .2rem;
