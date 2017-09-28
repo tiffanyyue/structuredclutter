@@ -11,6 +11,7 @@
 }
 
 .text-header {
+	position: relative;
 	width: 72%;
 	height: 100%;
 	margin-left: 6%;
@@ -40,7 +41,8 @@
 }
 
 .image-wrapper {
-	width: 800%;
+	letter-spacing: .02em;
+	width: 1800%;
 	overflow-x:scroll;
 }
 
