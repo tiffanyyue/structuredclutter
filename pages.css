@@ -49,6 +49,9 @@
 	overflow-x:scroll;
 }
 
+.scroll-arrow {
+	position: absolute;
+}
 
 /* styles */
 
