@@ -99,6 +99,15 @@
 	font-size: .9rem;
 }
 
+a {
+	color: black;
+	text-transform: uppercase;
+}
+
+a:visited {
+	color: black;
+}
+
 
 /*  Definitions for page panels  */
 
