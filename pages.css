@@ -12,7 +12,7 @@
 }
 
 .text-header {
-	position: fixed;
+	position: absolute;
 	width: 47%;
 	height: 100%;
 	margin-left: 4%;
@@ -25,7 +25,7 @@
 }
 
 .text-body {
-	position: fixed;
+	position: absolute;
 	width: 72%;
 	margin-left: 3%;
 	height: 50%;
@@ -42,7 +42,7 @@
 	overflow-x: scroll;
 	overflow-y: hidden;
 	left: 0;
-	top: 22%;
+	top: 2%;
 	height: 100%;
 	width: 100%;
 }
@@ -52,7 +52,7 @@
 	width: 1800%;
 	overflow-x:scroll;
 	margin-left: 95%;
-	/* margin-top: 39%; */
+	margin-top: 15%;
 	/* position: fixed; */
 }
 
