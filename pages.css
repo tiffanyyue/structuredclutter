@@ -41,16 +41,17 @@
 	position: fixed;
 	overflow-x: scroll;
 	overflow-y: hidden;
-	left: 50%;
-	top: 30%;
+	left: 0;
+	top: 22%;
 	height: 100%;
-	width: 50%;
+	width: 100%;
 }
 
 .image-wrapper {
 	letter-spacing: .02em;
 	width: 1800%;
 	overflow-x:scroll;
+	margin-left: 95%;
 	/* margin-top: 39%; */
 	/* position: fixed; */
 }
@@ -59,7 +60,7 @@
 	position: fixed;
 	font-size: 0.85rem;
 	top: 62%;
-	left: 87%;
+	left: 92%;
 	letter-spacing: .2rem;
 	font-family: 'HelveticaNeue';
 	font-style: italic;
