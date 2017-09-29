@@ -26,7 +26,7 @@
 
 .text-body {
 	position: fixed;
-	width: 52%;
+	width: 72%;
 	margin-left: 3%;
 	height: 50%;
 	overflow-y: scroll;
@@ -57,11 +57,13 @@
 
 .scroll-arrow {
 	position: fixed;
-	top: 17%;
-	left: 72%;
+	font-size: 0.85rem;
+	top: 62%;
+	left: 87%;
 	letter-spacing: .2rem;
 	font-family: 'HelveticaNeue';
 	font-style: italic;
+	z-index: 5;
 }
 
 .text-body::-webkit-scrollbar {
@@ -97,7 +99,7 @@
 
 .text-box h1 {
 	margin-top: 15%;
-	font-size: 3.2rem;
+	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: .4rem;
 	font-family: 'HelveticaNeue';
@@ -122,7 +124,7 @@
 }
 
 .text-box p {
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 a {
