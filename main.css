@@ -51,6 +51,10 @@ body {
 	transform: translate(0px, -15px);
 }
 
+.icon.start {
+	transition: all .2s ease-in-out;
+}
+
 .icon.start:hover {
 	transform: translate(0px, 30px);
 }
