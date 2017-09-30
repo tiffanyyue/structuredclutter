@@ -51,6 +51,10 @@ body {
 	transform: translate(0px, -15px);
 }
 
+.icon, #about {
+	transform: translate(0px, 30px);
+}
+
 .x {
 	position: fixed;
 	left: 2.5%;
@@ -419,4 +423,8 @@ body {
 .cls-1{fill:none;}
 
 .cls-white{fill:black;}
+
+/* HOVER ACTIONS */
+
+
 
