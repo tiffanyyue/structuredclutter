@@ -51,14 +51,6 @@ body {
 	transform: translate(0px, -15px);
 }
 
-.icon.drawsvg-initialized {
-	transition: all .2s ease-in-out;
-}
-
-.icon.drawsvg-initialized:hover {
-	transform: translate(0px, -10px);
-}
-
 
 .x {
 	position: fixed;
@@ -164,7 +156,6 @@ body {
 }
 
 .logo {
-	z-index: 0;
 	position: absolute;
 	height: 30%;
 	top: 32%;
