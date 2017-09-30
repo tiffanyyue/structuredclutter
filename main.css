@@ -51,8 +51,12 @@ body {
 	transform: translate(0px, -15px);
 }
 
-.icon.start {
+.icon.drawsvg-initialized {
 	transition: all .2s ease-in-out;
+}
+
+.icon.drawsvg-initialized:hover {
+	transform: translate(0px, -10px);
 }
 
 
