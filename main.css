@@ -164,6 +164,7 @@ body {
 }
 
 .logo {
+	z-index: 0;
 	position: absolute;
 	height: 30%;
 	top: 32%;
