@@ -8,3 +8,5 @@ Major bugs from today:
 		- *IMPORTANT: need to have position: relative or absolute defined for z-index to take affect
 - git doesn't push properly?
 		- make another change ... check which branch is currently in use
+
+- gifs being annoying?? make sure you've exported properly from Premiere
