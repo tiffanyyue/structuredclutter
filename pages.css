@@ -78,6 +78,17 @@
     background: linear-gradient(to right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* Standard syntax (must be last) */
 }
 
+.image-title-box {
+	height: 57vh;
+	background-color: #ffd1bd;
+	width: 57vh;
+}
+
+.image-title-text {
+	font-family: 'HelveticaNeue';
+	font-style: italic;
+}
+
 .text-body::-webkit-scrollbar {
     width: .9em;
     outline: 2px solid black;
