@@ -67,6 +67,17 @@
 	z-index: 5;
 }
 
+.scroll-hide {
+	position: fixed;
+	height: 200%;
+	width: 30px;
+	right: 0px;
+	background: -webkit-linear-gradient(left, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* Standard syntax (must be last) */
+}
+
 .text-body::-webkit-scrollbar {
     width: .9em;
     outline: 2px solid black;
