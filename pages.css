@@ -81,6 +81,16 @@
 	/* background: linear-gradient(to right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); */ /* Standard syntax (must be last) */
 }
 
+.scroll-hide:hover {
+	-webkit-animation: 'slide' .5s ease forwards;
+    animation: 'slide' .5s ease forwards;
+}
+
+@-webkit-keyframes slide {
+	0% { right: -5%; }
+    100% { right: 0%; }
+}
+
 .image-title-box {
 	height: 57vh;
 	background-color: #ffd1bd;
