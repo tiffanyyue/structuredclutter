@@ -59,7 +59,7 @@
 .scroll-arrow {
 	position: fixed;
 	font-size: 0.85rem;
-	top: 62%;
+	top: 52%;
 	left: 92%;
 	letter-spacing: .2rem;
 	font-family: 'HelveticaNeue';
@@ -70,23 +70,30 @@
 .scroll-hide {
 	position: fixed;
 	height: 200%;
-	width: 30px;
-	right: 0px;
-	background: -webkit-linear-gradient(left, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* Standard syntax (must be last) */
+	width: 14%;
+	right: -5%;
+	top: -20%;
+	border: 2px solid black;
+	background-color: rgba(255, 255, 255, .6);
+	/* background: -webkit-linear-gradient(left, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); */ /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); /* For Firefox 3.6 to 15 */
+	/* background: linear-gradient(to right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); */ /* Standard syntax (must be last) */
 }
 
 .image-title-box {
 	height: 57vh;
 	background-color: #ffd1bd;
-	width: 57vh;
+	width: 45vh;
 }
 
 .image-title-text {
 	font-family: 'HelveticaNeue';
 	font-style: italic;
+	position: relative;
+	left: 31%;
+	top: 7%;
+	font-size: 5em;
 }
 
 .text-body::-webkit-scrollbar {
@@ -131,6 +138,7 @@
 .text-box h2 {
 	letter-spacing: 0rem;
 	font-size: 1.6rem;
+	font-style: italic;
 }
 
 .text-box h3 {

@@ -51,6 +51,11 @@ body {
 	transform: translate(0px, -15px);
 }
 
+.grid:hover {
+	cursor: pointer;
+	transform: translate(0px, -15px);
+}
+
 
 .x {
 	position: fixed;
