@@ -47,13 +47,17 @@
 	width: 100%;
 }
 
+.gallery-shown {
+	position: absolute;
+	left: 0;
+}
+
 .image-wrapper {
 	letter-spacing: .02em;
 	width: 1800%;
 	overflow-x:scroll;
 	margin-left: 95%;
 	margin-top: 15%;
-	/* position: fixed; */
 }
 
 .scroll-arrow {
@@ -408,3 +412,6 @@ a:visited {
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
+
+
+

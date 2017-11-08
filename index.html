@@ -412,6 +412,7 @@
 				</div>
 
 
+				<div class=''
 				<div class='image-wrapper'>
 					<img class='img-large' src='./img/about-3.jpg'> 
 					<img class='img-large' src='./img/about-1.jpg'>
@@ -559,6 +560,9 @@
 
 		$('.scroll-hide').click( function() {
 			console.log('pull out gallery!');
+			var boxName = '.' + $(this).attr('id') + '-gallery';
+			$(boxName).removeClass('gallery-hidden');
+			$(boxName).addClass('gallery-shown');
 		});
 
 
