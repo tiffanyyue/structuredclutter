@@ -83,7 +83,8 @@
 }
 
 .scroll-hide:hover {
-	transform: translateX(-2%);
+	cursor: pointer;
+	transform: translateX(-5%);
 }
 
 
