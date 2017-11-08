@@ -83,14 +83,9 @@
 }
 
 .scroll-hide:hover {
-	-webkit-animation: 'slide' .5s ease forwards;
-    animation: 'slide' .5s ease forwards;
+	transform: translateX(-2%);
 }
 
-@-webkit-keyframes slide {
-	0% { right: -5%; }
-    100% { right: -3%; }
-}
 
 .image-title-box {
 	height: 57vh;
