@@ -561,6 +561,7 @@
 		$('.scroll-hide').click( function() {
 			console.log('pull out gallery!');
 			var boxName = '.' + $(this).attr('id') + '-gallery';
+			console.log('box name is ' + boxName);
 			$(boxName).removeClass('gallery-hidden');
 			$(boxName).addClass('gallery-shown');
 		});
