@@ -369,7 +369,7 @@
 					<p>We wanted to tackle these two problems together. From the problem identification, we knew that we had to incorporate an accessory that both differentiated headphones and offered a detangling or wire keeper solution. Additional survey-based research led us to discover that students did not want to carry around an extra accessory when the function was purely utilitarian. Furthermore, the Apple headphones’ strong branding posed an interesting aesthetic issue - how could we augment but not distract from the character of the design?</p>
 				</div>
 				
-				<div class='scroll-hide'>VISUALS</div>
+				<div class='scroll-hide scroll-inactive'>VISUALS</div>
 
 				<div class='image-wrapper'>
 					<img class='img-large' src='./img/product-2.jpg'>
@@ -412,7 +412,6 @@
 				</div>
 
 
-				<div class=''
 				<div class='image-wrapper'>
 					<img class='img-large' src='./img/about-3.jpg'> 
 					<img class='img-large' src='./img/about-1.jpg'>
@@ -563,6 +562,7 @@
 			var boxName = '.' + $(this).attr('id') + '-gallery';
 			console.log('box name is ' + boxName);
 			$(this).removeClass('gallery-hidden');
+			$(this).removeClass('scroll-inactive');
 			$(this).addClass('gallery-shown');
 		});
 
