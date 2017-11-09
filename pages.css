@@ -88,10 +88,10 @@
 
 .scroll-hide {
 	position: fixed;
-	height: 200%;
+	height: 102%;
 	width: 100%;
 	left: 95%;
-	top: -20%;
+	top: -1%;
 	border: 2px solid black;
 	background-color: rgba(255, 255, 255, .6);
 	/* background: -webkit-linear-gradient(left, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); */ /* For Safari 5.1 to 6.0 */
@@ -100,6 +100,7 @@
 	/* background: linear-gradient(to right, rgba(255, 255, 255,0), rgba(255, 255, 255,1)); */ /* Standard syntax (must be last) */
 	transition: all .5s ease-in-out; 
 	z-index: 1;
+	overflow-y: scroll;
 }
 
 .scroll-inactive:hover {
@@ -148,7 +149,10 @@
 
 .img-large-new {
 	position: relative;
-	margin: auto;
+    margin: auto;
+    height: 60vh;
+    display: block;
+    margin-top: 10%;
 }
 
 .img-medium {
