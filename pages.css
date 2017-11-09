@@ -49,6 +49,7 @@
 
 .gallery-shown {
 	position: absolute;
+	background-color: rgba(255, 255, 255, 1);
 	-webkit-animation: 'show-gal' 0.8s ease-out forwards;
     /*-webkit-animation-delay: 2s;*/
     animation: 'show-gal' 0.8s ease-out forwards;
@@ -143,6 +144,11 @@
 	float: left;
 	margin-right: 83px;
 	height: 57vh;
+}
+
+.img-large-new {
+	position: relative;
+	margin: auto;
 }
 
 .img-medium {
