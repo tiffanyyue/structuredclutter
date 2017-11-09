@@ -50,7 +50,7 @@
 
 .gallery-shown {
 	position: absolute;
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, 1) !important;
 	-webkit-animation: 'show-gal' 0.8s ease-out forwards;
     /*-webkit-animation-delay: 2s;*/
     animation: 'show-gal' 0.8s ease-out forwards;
