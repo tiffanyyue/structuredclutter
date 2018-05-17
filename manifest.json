@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Tiffany Yue",
+	"description": "Personal website dev",
+	"version": "1",
+	"author": "Tiffany Yue",
+
+	"browser_action": {
+		"default_title": "Tuq Tab"
+	},
+
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+
+	"permissions" : ["activeTab"]
+}

@@ -56,9 +56,13 @@ body {
 	transform: translate(0px, -15px);
 }
 
-.grid:hover {
-	cursor: pointer;
-	transform: translate(0px, -15px);
+.grid {
+	opacity:1;
+	transition: color 0.5s ease;
+}
+
+.negative-grid {
+	opacity:0.5;
 }
 
 
