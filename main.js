@@ -2,54 +2,26 @@
 	$(document).ready( function () {
 
 		var textSelectables = document.getElementsByClassName("icon");
-		$(".icon").mouseenter(function() {
+		$(".icon, #words").mouseenter(function() {
 			for (var i = 0; i < textSelectables.length; i++) {
 				var target = textSelectables[i];
 				
 				if ((target.id).localeCompare(this.id)) {
-					console.log(target.id);
 					$(target).addClass("negative-grid");
 				}
-				/*
-				if((target.innerText).localeCompare(this.innerText)) {
-					//console.log("not alike");
-					$(target).addClass("negative-grid");
-					//target.dispatchEvent(selectEvent)
-				}*/
 			}
-				
 		});
 
-		$(".icon").mouseleave(function() {
+		$(".icon, #words").mouseleave(function() {
 			for (var i = 0; i < textSelectables.length; i++) {
 				var target = textSelectables[i];
 				
 				if ((target.id).localeCompare(this.id)) {
-					console.log(target.id);
 					$(target).removeClass("negative-grid");
 				}
-				/*
-				if((target.innerText).localeCompare(this.innerText)) {
-					//console.log("not alike");
-					$(target).addClass("negative-grid");
-					//target.dispatchEvent(selectEvent)
-				}*/
 			}
 				
 		});
-		/*
-		$(".icon").mouseleave(function() {
-			for (var i = 0; i < textSelectables.length; i++) {
-				var target = textSelectables[i];
-				console.log(target.idTag);
-				
-				if((target.innerText).localeCompare(this.innerText)) {
-					//console.log("not alike");
-					$(target).removeClass("negative-grid");
-					//target.dispatchEvent(selectEvent)
-				}
-			}
-		})*/
 
 		var menu = false;
 		var mySVG = $('svg').drawsvg({ duration: 1200, callback: function () {
@@ -57,9 +29,13 @@
 			if (!menu) {
 				$('#welcome-hello').removeClass('hidden');
 				$('#welcome-hello').addClass('animated fadeIn');
+				$('#words').addClass('hidden');
 			} else {
 			}
 		}});
+
+		//$('svg').css({"opacity":"1"});
+		$('svg').addClass("grid");
 		mySVG.drawsvg('animate');
 
 		var name='';
@@ -87,14 +63,12 @@
 				console.log('icons clicked');
 				$('#welcome-hello').addClass('hidden');
 
-				//$('#about').removeClass('hidden');
-				//$('#about').addClass('animated fadeIn');
+				$('#words').removeClass('hidden');
+				$('#words').addClass('animated fadeIn');
 
 				menu = !menu;
 
 			} else {
-
-
 
 				name = '#' + $(this).attr('id') + '-box';
 				console.log('icon ' + name + ' clicked');
@@ -102,9 +76,13 @@
 				$('.text-box').addClass('shown');
 				$('.text-box').removeClass('hidden');
 
-
 				$(name).addClass('shown');
 				$(name).removeClass('hidden');
+
+				var xS = document.getElementsByClassName('nav-icon4');
+				for (var i = 0; i < xS.length; i++) {
+					$(xS[i]).removeClass('open');
+				}
 
 			}
 		});
@@ -117,7 +95,20 @@
 			$(name).addClass('hidden');
 			$(name).removeClass('shown');
 
+
+
 			console.log('x clicked!');
+		});
+
+		$('.nav-icon4').click(function(){
+
+			$('.text-box').addClass('hidden');
+			$('.text-box').removeClass('shown');
+
+			$(name).addClass('hidden');
+			$(name).removeClass('shown');
+
+			$(this).toggleClass('open');
 		});
 
 		$('.scroll-hide').click( function() {
