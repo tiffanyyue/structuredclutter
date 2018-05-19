@@ -51,8 +51,9 @@ svg {
 }
 
 #about {
-	position: absolute;
-	transition: all .2s ease-in-out; 
+	/* position: absolute; */
+	transition: all .2s ease-in-out;
+	    width: 10%;
 }
 
 #about:hover {
@@ -63,8 +64,9 @@ svg {
 #words {
 	opacity: 0;
 	position: relative;
-	top: 90%;
+	top: 40%;
 	margin:auto;
+	/* margin-top: 0px; */
 	text-align:center;
 	letter-spacing: .4rem;
 	cursor:pointer;
@@ -179,22 +181,28 @@ svg {
 
 #icon-wrapper {
 	z-index: 0;
-	height: auto;
-	width: auto;
+	top: 15%;
+	height: 40%;
+	width: 50%;
 	cursor: pointer;
+	position: relative;
+	margin: auto;
+	left: 17%;
 }
 
 .logo {
-	position: absolute;
-	height: 30%;
+	/* position: absolute; */
+	height: 90%;
 	top: 32%;
+	/* left: 5%; */
 }
 
 .icon {
 	z-index: 0;
-	position: absolute;
-	height: 40%;
-	top: 27%;
+	position: relative;
+	height: 100%;
+	/* top: 27%; */
+	width: 100%;
 }
 
 .icon:hover {
@@ -203,12 +211,15 @@ svg {
 
 .start {
 	position: absolute;
-	left: 40%;
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+	left: 0%;
+	width: 30%;
 }
 
 .grid {
 	top: 27%;
-	transition: all .2s ease-in-out; 
+	transition: all .2s ease-in-out;
 }
 
 .col-logo {
@@ -296,117 +307,117 @@ svg {
 
 @keyframes col-logo {
 	0% {}
-	100% { height: 12%; left: 47%; top: 10%; }
+	100% {height: 31%;left: 0%;width:30%;top: -18%;}
 }
 
 
 @-webkit-keyframes col-1 {
 	0% {}
-	100% { 	height: 16%; left: 15%; top: 31%; }
+	100% { 	height: 41%; left: 15%; top: 31%; }
 }
 
 @-webkit-keyframes col-2 {
 	0% {}
-	100% { height: 16%; left: 31%; top: 31%; }
+	100% { height: 41%; left: 31%; top: 31%; }
 }
 
 
 @-webkit-keyframes col-3 {
 	0% {}
-	100% { height: 16%; left: 45%; top: 31%; }
+	100% { height: 41%; left: 45%; top: 31%; }
 }
 
 
 @-webkit-keyframes col-4 {
 	0% {}
-	100% { height: 16%; left: 59%; top: 31%; }
+	100% { height: 41%; left: 59%; top: 31%; }
 }
 
 @-webkit-keyframes col-5 {
 	0% {}
-	100% { height: 16%; left: 7%; top: 31%; }
+	100% { height: 41%; left: 7%; top: 31%; }
 }
 
 
 @keyframes col-1 {
 	0% {}
-	100% { height: 16%; left: 15%; top: 31%; }
+	100% {height: 41%;left: -62%;top: 31%;}
 }
 
 @keyframes col-2 {
 	0% {}
-	100% { height: 16%; left: 31%; top: 31%; }
+	100% {height: 41%;left: -28%;top: 31%;}
 }
 
 
 @keyframes col-3 {
 	0% {}
-	100% { height: 16%; left: 45%; top: 31%; }
+	100% {height: 41%;top: 31%;}
 }
 
 
 @keyframes col-4 {
 	0% {}
-	100% { height: 16%; left: 59%; top: 31%; }
+	100% {height: 41%;left: 34%;top: 31%;}
 }
 
 @keyframes col-5 {
 	0% {}
-	100% { height: 16%; left: 74%; top: 31%; }
+	100% {height: 41%;left: 60%;top: 31%;}
 }
 
 @-webkit-keyframes col-6 {
 	0% {}
-	100% { 	height: 16%; left: 15%; top: 50%; }
+	100% { 	height: 41%; left: 15%; top: 50%; }
 }
 
 @-webkit-keyframes col-7 {
 	0% {}
-	100% { height: 16%; left: 31%; top: 50%; }
+	100% { height: 41%; left: 31%; top: 50%; }
 }
 
 
 @-webkit-keyframes col-8 {
 	0% {}
-	100% { height: 16%; left: 45%; top: 50%; }
+	100% { height: 41%; left: 45%; top: 50%; }
 }
 
 
 @-webkit-keyframes col-9 {
 	0% {}
-	100% { height: 16%; left: 59%; top: 50%; }
+	100% { height: 41%; left: 59%; top: 50%; }
 }
 
 @-webkit-keyframes col-10 {
 	0% {}
-	100% { height: 16%; left: 74%; top: 50%; }
+	100% { height: 41%; left: 74%; top: 50%; }
 }
 
 
 @keyframes col-6 {
 	0% {}
-	100% {height: 16%; left: 15%; top: 50%; }
+	100% {height: 41%;left: -30%;top: 75%;}
 }
 
 @keyframes col-7 {
 	0% {}
-	100% {height: 16%; left: 31%; top: 50%; }
+	100% {height: 41%;left: -60%;top: 75%;}
 }
 
 
 @keyframes col-8 {
 	0% {}
-	100% {height: 16%; left: 45%; top: 50%; }
+	100% {height: 41%;left: 0;top: 75%;}
 }
 
 @keyframes col-9 {
 	0% {}
-	100% {height: 16%; left: 59%; top: 50%; }
+	100% {height: 41%;left: 30%;top: 75%;}
 }
 
 @keyframes col-10 {
 	0% {}
-	100% {height: 16%; left: 74%; top: 50%; }
+	100% {height: 41%;left: 60%;top: 75%;}
 }
 
 #paint {
