@@ -1,4 +1,12 @@
 
+
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-119526242-1');
+
+
 	$(document).ready( function () {
 
 		var textSelectables = document.getElementsByClassName("icon");
