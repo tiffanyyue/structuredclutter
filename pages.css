@@ -6,9 +6,8 @@
 	position: absolute;
 	font-family: 'Helvetica';
 	height: 100%;
-	top: 5%;
+	top: 0%;
 	overflow: hidden;
-
 }
 
 .text-header {
@@ -19,10 +18,25 @@
 	left: 14%;
 	z-index: 1;
 	top: 0%;
+	display: inline-block;
 }
 
 .tag {
 	margin-right: 15px;
+}
+
+.backToTop {
+	font-family: 'HelveticaNeue';
+	font-style: italic;
+	color: gray;
+	font-size: 0.6rem;
+	position: relative;
+	/* text-align: right; */
+	left: 15%;
+	width: 72%;
+	margin-bottom: 15%;
+	cursor:  pointer;
+	display: block;
 }
 
 .text-body {
@@ -30,7 +44,7 @@
 	top: 6%;
 	left: 14%;
 	width: 72%;
-	margin-top: 0px;
+	margin-top: 3%;
 	/* margin-left: 19%; */
 	height: auto;
 	/* overflow-y: scroll; */
@@ -41,7 +55,8 @@
 	/* padding-left: 40px; */
 	/* padding-right: 43px; */
 	/* padding-bottom: 10%; */
-	margin-bottom: 20%;
+	margin-bottom: 7%;
+	display: inline-block;
 }
 
 .image-gallery {
@@ -49,7 +64,7 @@
 	overflow-x: scroll;
 	/* overflow-y: hidden; */
 	left: 0;
-	top: 2%;
+	top: 0%;
 	height: 100%;
 	width: 100%;
 	z-index: 4;
@@ -89,7 +104,7 @@
 
 .image-gallery::-webkit-scrollbar-thumb {
   background-color: rgb(0, 0, 0);
-  border: 2px solid white;
+  border: 0.1rem solid white;
 }
 
 .scroll-arrow {
@@ -195,7 +210,7 @@
 .text-box h2 {
 	margin-top: 0px;
 	letter-spacing: 0rem;
-	font-size: 1rem;
+	font-size: .9rem;
 	font-style: italic;
 	margin-left: 0%;
 	width: 86%;
