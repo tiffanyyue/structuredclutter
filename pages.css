@@ -13,10 +13,10 @@
 
 .text-header {
 	position: relative;
-	width: 65%;
+	width: 72%;
 	height: auto;
 	/* margin-left: 22%; */
-	left: 22%;
+	left: 14%;
 	z-index: 1;
 	top: 0%;
 }
@@ -28,17 +28,19 @@
 .text-body {
 	position: relative;
 	top: 6%;
-	left: 22%;
-	width: 60%;
+	left: 14%;
+	width: 72%;
 	margin-top: 0px;
 	/* margin-left: 19%; */
-	height: 61%;
+	height: 50%;
 	overflow-y: scroll;
 	z-index: 1;
 	/* top: 33%; */
+	/* font-size: 1rem; */
 	/* border: 1px solid; */
 	/* padding-left: 40px; */
 	/* padding-right: 43px; */
+	/* padding-bottom: 10%; */
 }
 
 .image-gallery {
@@ -192,9 +194,10 @@
 .text-box h2 {
 	margin-top: 0px;
 	letter-spacing: 0rem;
-    font-size: 1rem;
-    font-style: italic;
-    margin-left: 0%;
+	font-size: 1rem;
+	font-style: italic;
+	margin-left: 0%;
+	width: 86%;
 }
 
 .text-box h3 {
@@ -215,8 +218,8 @@
 
 .text-box p {
 	margin-top: 0px;
-	font-size: 2rem;
-	line-height: 3.3rem;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
 	font-family: HelveticaNeue;
 	letter-spacing: 0.03rem;
 }
