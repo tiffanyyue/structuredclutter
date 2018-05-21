@@ -15,9 +15,10 @@
 	width: 72%;
 	height: auto;
 	/* margin-left: 22%; */
-	left: 14%;
+	/* left: 14%; */
 	z-index: 1;
 	top: 3rem;
+	margin: 50px auto;
 	/* display: inline-block; */
 }
 
@@ -32,9 +33,10 @@
 	font-size: 0.6rem;
 	position: relative;
 	/* text-align: right; */
-	left: 14%;
+	/* left: 14%; */
 	width: 72%;
-	margin-bottom: 15%;
+	margin: 50px auto;
+	/* margin-bottom: 15%; */
 	cursor:  pointer;
 	top: 10%;
 	display: block;
@@ -43,20 +45,21 @@
 .text-body {
 	position: relative;
 	top: 8%;
-	left: 14%;
+	/* left: 14%; */
 	width: 72%;
-	margin-top: 3%;
+	margin-top: 5%;
 	/* margin-left: 19%; */
 	height: auto;
 	/* overflow-y: scroll; */
 	z-index: 1;
+	margin: 50px auto;
 	/* top: 33%; */
 	/* font-size: 1rem; */
 	/* border: 1px solid; */
 	/* padding-left: 40px; */
 	/* padding-right: 43px; */
 	/* padding-bottom: 10%; */
-	margin-bottom: 7%;
+	/* margin-bottom: 7%; */
 	/* display: inline-block; */
 }
 
