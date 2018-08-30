@@ -13,7 +13,7 @@
 		$(".icon, #words").mouseenter(function() {
 			for (var i = 0; i < textSelectables.length; i++) {
 				var target = textSelectables[i];
-				
+
 				if ((target.id).localeCompare(this.id)) {
 					$(target).addClass("negative-grid");
 				}
@@ -23,12 +23,12 @@
 		$(".icon, #words").mouseleave(function() {
 			for (var i = 0; i < textSelectables.length; i++) {
 				var target = textSelectables[i];
-				
+
 				if ((target.id).localeCompare(this.id)) {
 					$(target).removeClass("negative-grid");
 				}
 			}
-				
+
 		});
 
 		var menu = false;
@@ -65,10 +65,9 @@
 				$('#windows').attr("class", "drawsvg-initialized start icon grid col-6");
 				$('#paint').attr("class", "drawsvg-initialized start icon grid col-7");
 				$('#funk').attr("class", "drawsvg-initialized start icon grid col-8");
-				$('#code').attr("class", "drawsvg-initialized start icon grid col-9");			
+				$('#code').attr("class", "drawsvg-initialized start icon grid col-9");
 				$('#cliq').attr("class", "drawsvg-initialized start icon grid col-10");
 
-				console.log('icons clicked');
 				$('#welcome-hello').addClass('hidden');
 
 				$('#words').removeClass('hidden');
@@ -79,7 +78,6 @@
 			} else {
 
 				name = '#' + $(this).attr('id') + '-box';
-				console.log('icon ' + name + ' clicked');
 
 				$('.text-box').addClass('shown');
 				$('.text-box').removeClass('hidden');
@@ -103,13 +101,10 @@
 			$(name).addClass('hidden');
 			$(name).removeClass('shown');
 
-
-
 			console.log('x clicked!');
 		});
 
 		$('.nav-icon4').click(function(){
-
 			$('.text-box').addClass('hidden');
 			$('.text-box').removeClass('shown');
 

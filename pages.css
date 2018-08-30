@@ -178,31 +178,20 @@
 
 /* styles */
 
-.img-large {
+.img-wide {
 	display: block;
+	margin-bottom: 4vw;
+	width: 74vw;
 	float: left;
-	margin-right: 83px;
-	height: 57vh;
+	height: auto;
 }
 
-.img-large-new {
-	position: relative;
-    margin: auto;
-    height: 60vh;
-    display: block;
-    margin-top: 10%;
-}
-
-.img-medium {
-	display: block;
-	float: left;
-	margin-right: 30px;
-	height: 57vh;
-}
-
-.img-small {
+.img-tall {
 	width: 30%;
 	height: auto;
+	float: left;
+	margin-right: 4vw;
+	margin-bottom: 4vw;
 }
 
 .text-box h1 {
@@ -526,6 +515,3 @@ a:visited {
 	-webkit-animation: 'fadeout' .5s ease forwards;
     animation: 'fadeout' .5s ease forwards;
 }
-
-
-
